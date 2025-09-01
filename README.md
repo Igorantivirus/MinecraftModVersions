@@ -1,4 +1,4 @@
-<h1 align="center">Mine-Mod-Versions-With-Interface</h1>
+<h1 align="center">Mine-Mod-Versions</h1>
 
 [![Русская версия](https://img.shields.io/badge/Русская%20версия-blue)](README_RU.md)
 
@@ -6,7 +6,8 @@
 
 A console utility for easy switching between Minecraft mods.
 
-[🔗 Link to a desktop version](https://github.com/Igorantivirus/Mine-Mods-Versions-With-Interface)
+> A more detailed desktop version
+> [🔗 Link to a desktop version](https://github.com/Igorantivirus/Mine-Mods-Versions-With-Interface)
 
 <h2>Dependencies</h2>
 
@@ -23,8 +24,7 @@ Programming language: **C++20**
 
 <h2>In Development</h2>
 
-* Support for locating the Minecraft folder on Linux  
-  * Currently, `src/ProgrammPathMeneger.hpp` searches for the Windows AppData folder. **Linux support is in progress.**
+* Support for locating the Minecraft folder on Linux
 
 <h2>Installation and Run</h2>
 
@@ -33,10 +33,9 @@ Programming language: **C++20**
    git clone "https://github.com/Igorantivirus/MinecraftModVersions"
    cd MinecraftModVersions
    ```
-2. **Build & Run**
+2. **Build**
    ```bash
    g++ main.cpp -o mmv
-   ./mmv
    ```
 
 <h2>License</h2>
